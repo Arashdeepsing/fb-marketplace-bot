@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "login": "node scripts/login.js"
+    "login": "node scripts/login.js",
+    "postinstall": "npx playwright install --with-deps"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.10.9",
