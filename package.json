@@ -1,0 +1,21 @@
+{
+  "name": "marketplace-auto-message",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "login": "node scripts/login.js"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.10.9",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "dotenv": "^16.0.0",
+    "framer-motion": "^10.18.0",
+    "next": "13.4.10",
+    "playwright": "^1.35.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
